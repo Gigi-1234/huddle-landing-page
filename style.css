@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+body {
+    background-color: #684BB1;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 120px;
+    height: 19px;
+    margin-top: 38.2px;
+    margin-left: -215px;
+}
+.mob {
+    
+    width: 375px;
+    height: 313.66px;
+}
+.mobb {
+    
+    width: 296px;
+    height: 209px;
+    border-radius: 5.83px;
+    margin-top: 70px;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    max-width: 280px;
+    height: 72px;
+    margin-top: 60px
+}
+p {
+    font-family: 'Open sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    max-width: 304px;
+}
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none
+}
+button:hover {
+        border-radius: 56px;
+        background-color: #E880E8;
+        cursor: pointer;
+    }
+.register {
+    font-weight: 400;
+    font-size: 12px;
+    color: #684BB1;
+    line-height: 18px;
+    margin-top: 24px;
+}
+.register:hover {
+        color: #FFFFFF;
+    }
+.icons {
+    margin-top: 64px;
+    gap: 10.86px;
+}
+.fb {
+    width: 27.14px;
+    height: 28px;
+    
+}
+.ins {
+    width: 27.14px;
+    height: 28px;
+}
+.twit {
+    width: 27.14px;
+    height: 28px;  
+}
+/* Responsive for Desktop */
+@media screen and (min-width: 1440px){
+    body {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        height: 100vh;
+        background-image: url(./images/bg-desktop.svg);
+        background-position-x: -175px;
+    }
+    .mobb {
+        width: 696px;
+        height: 493px;
+    }
+    h1 {
+        max-width: 487px;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+    p {
+        max-width: 520px;
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 24px;
+        padding-top: 24px;
+    }
+    .logo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 75px;
+        width: 250px;
+        height: 165px;
+    }
+    .elements {
+        align-items: flex-start;
+        margin-left: 59px;
+        text-align: start;
+        margin-top: -101px;
+    }
+    
+    .icons {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 200px;
+        height: 100px;
+        margin-left: 10px;
+    }
+     
+}
